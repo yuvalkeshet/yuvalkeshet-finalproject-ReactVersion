@@ -1,0 +1,20 @@
+.form-header {
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15);
+    color: #fff;
+    text-align: center;
+    margin-top: -3.13rem;
+    margin-bottom: 3rem;
+    padding: 1rem;
+    border: none;
+}
+
+.list-group-item {
+    border-radius: 0px !important;
+    border-left-width: 0px;
+    border-right-width: 0px;
+}
+
+.modal-dialog {
+    margin-top: 75px;
+}
+

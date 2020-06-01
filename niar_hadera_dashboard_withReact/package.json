@@ -1,0 +1,50 @@
+{
+  "name": "your-app",
+  "version": "0.1.0",
+  "private": true,
+  "// If You want to install mdbreact from our GitLab repository, please replace '4.13.0' with gitURL provided here ->": "git+https://oauth2:<YOUR-TOKEN-GOES-HERE>@git.mdbootstrap.com/mdb/react/re-pro.git",
+  "dependencies": {
+    "@material-ui/core": "^3.9.3",
+    "@material-ui/icons": "^3.0.2",
+    "@progress/kendo-react-intl": "^2.10.0",
+    "@progress/kendo-react-upload": "^2.10.0",
+    "@trendmicro/react-sidenav": "^0.4.5",
+    "accessible-autocomplete": "^1.6.2",
+    "autosuggest-highlight": "^3.1.1",
+    "axios": "^0.18.0",
+    "email-templates": "^5.0.5",
+    "material-ui-icons": "^1.0.0-beta.36",
+    "mdbreact": "4.13.0",
+    "moment": "^2.24.0",
+    "pug": "^2.0.3",
+    "react": "^16.8.6",
+    "react-autocomplete": "^1.8.1",
+    "react-autosuggest": "^9.4.3",
+    "react-dom": "^16.7.0",
+    "react-ellipsis-text": "^1.1.0",
+    "react-helmet": "^5.2.0",
+    "react-moment": "^0.9.2",
+    "react-responsive-navbar": "^1.0.11",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "2.0.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "rename": "renamer --find App-clear.js --replace App.js ./src/App-clear.js && renamer --find style.css --replace index.css ./src/style.css ",
+    "remove-demo": "rimraf ./src/assets ./src/components ./src/pages ./src/Routes.js ./src/App.js ./src/index.css && npm run rename"
+  },
+  "devDependencies": {
+    "renamer": "^1.0.0",
+    "rimraf": "^2.6.2"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "proxy": "http://localhost:55789"
+}
