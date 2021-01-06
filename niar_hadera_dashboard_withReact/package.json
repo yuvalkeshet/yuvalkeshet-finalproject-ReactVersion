@@ -11,7 +11,7 @@
     "@trendmicro/react-sidenav": "^0.4.5",
     "accessible-autocomplete": "^1.6.2",
     "autosuggest-highlight": "^3.1.1",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "email-templates": "^5.0.5",
     "material-ui-icons": "^1.0.0-beta.36",
     "mdbreact": "4.13.0",
